@@ -23,11 +23,19 @@ body {
 }
 
 .download {
-  width: 90%;
-  margin: 5%;
-  position: absolute;
+  width: 70%;
+  margin: 0;
+  position: relative;
   bottom: 0;
   left: 0;
+}
+
+.icon {
+  width: 15%;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  left: 5px;
 }
 
 .card-body {

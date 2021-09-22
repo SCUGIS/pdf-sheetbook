@@ -168,7 +168,7 @@ async function api(auth) {
           savePath: './img',
           format: 'jpg',
           width: 400,
-          height: 600,
+          // height: 600,
         }
         const storeAsImage = fromPath(addr, options)
         const pageToConvertAsImage = 1
