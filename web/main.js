@@ -59,7 +59,7 @@ $(async () => {
       .click(function () {
         const num = $(this).attr('page')
         console.log(num)
-        copyTextToClipboard(`<iframe style="border: 0;box-shadow: 0 0 1px;" scrolling="no" src="https://gis.scu.edu.tw/pdfbook/iframe.html#${num}" height="400">
+        copyTextToClipboard(`<iframe style="border: 0;box-shadow: 0 0 1px; overflow: hidden;" scrolling="no" src="https://gis.scu.edu.tw/pdfbook/iframe.html#${num}" height="550">
 </iframe>`);
       })
 

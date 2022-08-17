@@ -17,6 +17,7 @@ $(async () => {
   let src = item.thumbnail ? item.thumbnail : 'noimg.png'
   img.attr('src', src)
   btn.attr('href', `./viewer/?file=${item.file}`)
+  btn.attr('target', '_blank')
 
   header.append(title)
   body.append(img)
